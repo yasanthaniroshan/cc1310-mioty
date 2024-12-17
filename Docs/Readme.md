@@ -27,4 +27,7 @@ This project demonstrates the use of the Mioty protocol stack on the CC1310 micr
     cd Template
     ```
 3. Build and flash the firmware to the CC1310 launchpad:
+    ```sh
+    make all
+    ```
 
