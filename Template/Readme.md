@@ -15,9 +15,12 @@ A template project for creating new projects with cc1310-mioty on Contiki-ng.
 - [Visual Studio Code](https://code.visualstudio.com/)
 
 ## Configuration
-## Add Mioty Protocol Stack
+### Add Mioty Protocol Stack
 - You need to download and add necessary header files to [includes](includes) folder and compiled library files to [lib](lib) folder.
 - Make sure MIORT lib named as ` mioty.lib` otherwise you need to change the name in the Makefile.
+
+### Renaming 
+- When you renaming [template.c](template.c) make sure that change is already applied to Makefile
 
 ### Code Completion and IntelliSense
 - You need to set include paths for the Contiki-ng SDK in the [c_cpp_properties.json](.vscode/c_cpp_properties.json) file to enable code completion and IntelliSense in Visual Studio Code.
@@ -30,5 +33,4 @@ A template project for creating new projects with cc1310-mioty on Contiki-ng.
     ```
 
 > [!WARNING]
-> If you see error msg like `Contiki-ng SDK not found. Please set the CONTIKI path.`, make sure contiki-ng sdk is installed
-> If contiki-ng sdk is installed,then set the `CONTIKI` path in the Makefile
+> If you see error msg like `Contiki-ng SDK not found. Please set the CONTIKI path.`, make sure contiki-ng sdk is installed.If contiki-ng sdk is installed,then set the `CONTIKI` path in the Makefile
