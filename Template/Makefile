@@ -16,7 +16,8 @@ endif
 include $(CONTIKI)/Makefile.include
 
 
-LDFLAGS += $(LIB_PATH)/$(LIBRARY)
+# LDFLAGS += $(LIB_PATH)/$(LIBRARY)
+TARGET_LIBFILES += $(LIB_PATH)/$(LIBRARY)
 
 CFLAGS += -Iincludes
 
